@@ -1,0 +1,21 @@
+.formButton {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.formButton button {
+  border-radius: 10px;
+  padding: 10px;
+  margin: 20px;
+  border: 1px solid rgb(155, 155, 155);
+}
+.formButton button:hover {
+  background-color: cornflowerblue;
+}
+
+input:focus {
+  border: 5px solid rgb(76, 198, 255);
+  border-radius: 5px;
+  outline: none;
+}
